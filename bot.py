@@ -36,9 +36,6 @@ def handle(msg):
     else:
         pass
 
-    if text == '/jsondump':
-        bot.sendMessage(chat_id, msg)
-
     if msg['text'].startswith('/yt '):
             try:
                 res = search_yt(msg['text'][4:])
