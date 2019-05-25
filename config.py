@@ -2,6 +2,6 @@ import telepot
 from bs4 import BeautifulSoup
 import requests
 
-TOKEN = '806805632:AAFnrfCVeGrmYnTWxndyFGhhVMiQLwxqM3s'
-sudo = '269122834'
+TOKEN = 'YOUR_BOT_TOKEN'
+sudo = 'YOUR_ID'
 bot = telepot.Bot(TOKEN)
